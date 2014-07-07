@@ -1,0 +1,15 @@
+compress
+uncompress
+
+This program is a Huffman code file compressor and decompressor written in C++
+It implements Huffman's algorithm using supporting data structures and extends
+the basic I/O functionality of C++ to include bitwise operations
+
+This program can be invoked with a command line:
+
+Compression: ./compress A B
+Uncompression: ./uncompress B C
+
+Where A is the infile (e.g. warandpeace.txt), B is the outfile name 
+(e.g. compressed.txt) as well as the uncompression input, and C is the 
+uncompression output (e.g. uncompressed.txt) which will be the same as A
